@@ -136,7 +136,7 @@ if __name__ == '__main__':
 	print "DETECTING PLATE . . ."
 
 	#img = cv2.imread("testData/Final.JPG")
-	img = cv2.imread("testData/test.jpeg")
+	img = cv2.imread("test.jpeg")
 
 	threshold_img = preprocess(img)
 	contours= extract_contours(threshold_img)
